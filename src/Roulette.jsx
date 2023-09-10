@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect,useContext } from 'react';
 import './Roulette.css';
 import UserContext from './UserContext';
 
-const Roulette = ( { onRouletteEnd }  ) => {
+const Roulette = ( { onRouletteEnd  }  ) => {
 
     const canvasRef = useRef(null);
     const [rotation, setRotation] = useState(0);
@@ -51,6 +51,10 @@ const Roulette = ( { onRouletteEnd }  ) => {
             const probability = (user.rate / totalRate) * 100;
             console.log(`${user.name}의 확률: ${probability.toFixed(2)}%`);
         });
+
+
+
+
 
 
     }, [users]);

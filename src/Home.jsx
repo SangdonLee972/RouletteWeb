@@ -26,7 +26,7 @@ const Home = () => {
         <div className="home-container">
             <div className="home-main">
                 {/* Roulette 컴포넌트에 초기화 콜백 함수와 resetRoulette 상태를 전달 */}
-                <Roulette onRouletteEnd={handleRouletteEnd} resetRoulette={resetRoulette} />
+                <Roulette onRouletteEnd={handleRouletteEnd} />
                 <UserInfo />
             </div>
             <div>
@@ -37,3 +37,4 @@ const Home = () => {
 }
 
 export default Home;
+   
