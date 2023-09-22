@@ -9,7 +9,12 @@ import UserContext from './UserContext';
 
 function App() {
   const initialUsers = [
-    
+    {name: 'Limar0', rate: 451},
+    {name: 'Munitius', rate: 405},
+
+    {name: 'Donn', rate: 158},
+
+
     // ... 나머지 사용자들
   ];
 
